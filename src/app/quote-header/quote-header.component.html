@@ -1,0 +1,18 @@
+<div class="row">
+    <div class="col-10">
+      <button class="btn mr-2 upvote" (click)="upvoteQuote(true)">
+     
+        <span>{{ quote.upVotes }}</span>
+      </button>
+      <button class="btn downvote" (click)="downvoteQuote(true)">
+      
+        <span>{{ quote.downVotes }}</span>
+      </button>
+    </div>
+    <div class="col-2 text-center">
+      <button class="btn btn-danger" (click)="deleteQuote(true)">
+      
+      </button>
+    </div>
+  </div>
+  
